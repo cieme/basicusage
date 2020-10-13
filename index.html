@@ -8,7 +8,16 @@
 </head>
 
 <body>
-  <div id="app"></div>
+  <div id="app">
+    <h1>solt</h1>
+    <h3>{{ msg }}</h3>
+    <h3>{{  count  }}</h3>
+    <h1>v-text</h1>
+    <div v-text="msg"></div>
+    <h1>v-model</h1>
+    <input type="text" v-model="msg">
+    <input type="text" v-model="count">
+  </div>
   <script src="./src/index.js"></script>
 </body>
 
